@@ -2,13 +2,35 @@
 <head>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<script src="https://raw.github.com/alpixel/jMenu/master/js/jMenu.jquery.js"></script>
+	<script src="js/general.js"></script>
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="https://raw.github.com/alpixel/jMenu/master/css/jMenu.jquery.css" type="text/css" />
 	<link rel="stylesheet" href="css/index.css" type="text/css" />
 </head>
 
 <body>
 	<div id="main-wrapper">
 		<div id="top-panel">
+			<div id="main-menu-panel">
+				<ul id="main-menu">
+					<li><a href="#">Store</a>
+						<ul>
+							<li><a href="#">CD</a></li>
+							<li><a href="#">VCD</a></li>
+							<li><a href="#">DVD</a></li>
+							<li><a href="#">Blue Ray</a></li>
+						</ul>
+
+					</li>
+					<li><a href="#">My Store</a></li>
+					<li><a href="#">Account</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+
+				</ul>
+
+			</div>
 			<div id="searchBox">
 				<form id="searchForm" method="post">
 					<fieldset>
@@ -31,9 +53,41 @@
 			</div>
 		</div>
 		<div id="content-wrapper">
-			<div id="recommendation-item-list">
+			<div id="recommendation-block">
 				<span id="s9-title">Recommendation Item</span>
 				<hr>
+				<div id="recommendation-list">
+					<div class="recommendation-item">
+						<a href="#">
+							<img src="http://ecx.images-amazon.com/images/I/510oJQfnYSL._SL135_.jpg" alt="" width="116" height="135">
+							<span class="r-title">Evangelion: 1.11 You Are Alone</span>
+						</a>
+					</div>
+					<div class="recommendation-item">
+						<a href="#">
+							<img src="http://ecx.images-amazon.com/images/I/51P-JRP9QRL._SL135_.jpg" url="" alt="" width="116" height="135">
+							<span class="r-title">Redline</span>
+						</a>
+					</div>
+					<div class="recommendation-item">
+						<a href="#">
+							<img src="http://ecx.images-amazon.com/images/I/51P9LRL4e0L._SL135_.jpg" url="" alt="" width="105" height="135">
+							<span class="r-title">First Squad [Blu-ray]</span>
+						</a>
+					</div>
+					<div class="recommendation-item">
+						<a href="#">
+							<img src="http://ecx.images-amazon.com/images/I/61R591%2BX3GL._SL135_.jpg" alt="" width="105" height="135">
+							<span class="r-title">Redline [Blu-ray]</span>
+						</a>
+					</div>
+					<div class="recommendation-item">
+						<a href="#">
+							<img src="http://ecx.images-amazon.com/images/I/61OamcTOk0L._SL135_.jpg" url="" alt="" width="116" height="135">
+							<span class="r-title">Summer Wars [Blu-ray]</span>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
