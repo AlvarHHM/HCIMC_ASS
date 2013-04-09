@@ -10,87 +10,90 @@
 </head>
 
 <body>
-	<div id="main-wrapper">
-		<div id="top-panel">
-			<div id="main-menu-panel">
-				<ul id="main-menu">
-					<li><a href="#">Store</a>
-						<ul>
-							<li><a href="#">CD</a></li>
-							<li><a href="#">VCD</a></li>
-							<li><a href="#">DVD</a></li>
-							<li><a href="#">Blue Ray</a></li>
+	<div id="bg-wrapper">
+		<div id="main-wrapper">
+			<div id="top-panel">
+				<div><img src="image/ive_logo.jpg" width="200"><div>
+					<div id="main-menu-panel">
+						<ul id="main-menu">
+							<li><a href="#">Store</a>
+								<ul>
+									<li><a href="#">CD</a></li>
+									<li><a href="#">VCD</a></li>
+									<li><a href="#">DVD</a></li>
+									<li><a href="#">Blue Ray</a></li>
+								</ul>
+
+							</li>
+							<li><a href="#">My Store</a></li>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+
 						</ul>
 
-					</li>
-					<li><a href="#">My Store</a></li>
-					<li><a href="#">Account</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contact Us</a></li>
+					</div>
+					<div id="searchBox">
+						<form id="searchForm" method="post">
+							<fieldset>
 
-				</ul>
+								<input id="s" type="text">
 
-			</div>
-			<div id="searchBox">
-				<form id="searchForm" method="post">
-					<fieldset>
+								<input type="submit" value="Submit" id="submitButton">
 
-						<input id="s" type="text">
+								<div id="searchInContainer">
+									<input type="radio" name="check" value="site" id="searchSite" checked="">
+									<label for="searchSite" id="siteNameLabel">Search Goods</label>
 
-						<input type="submit" value="Submit" id="submitButton">
+									<input type="radio" name="check" value="web" id="searchWeb">
+									<label for="searchWeb">Search The Web</label>
+								</div>
 
-						<div id="searchInContainer">
-							<input type="radio" name="check" value="site" id="searchSite" checked="">
-							<label for="searchSite" id="siteNameLabel">Search Goods</label>
 
-							<input type="radio" name="check" value="web" id="searchWeb">
-							<label for="searchWeb">Search The Web</label>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<div id="content-wrapper">
+					<div id="recommendation-block">
+						<span id="s9-title">Recommendation Item</span>
+						<hr>
+						<div id="recommendation-list">
+							<div class="recommendation-item">
+								<a href="#">
+									<img src="http://ecx.images-amazon.com/images/I/510oJQfnYSL._SL135_.jpg" alt="" width="116" height="135">
+									<span class="r-title">Evangelion: 1.11 You Are Alone</span>
+								</a>
+							</div>
+							<div class="recommendation-item">
+								<a href="#">
+									<img src="http://ecx.images-amazon.com/images/I/51P-JRP9QRL._SL135_.jpg" url="" alt="" width="116" height="135">
+									<span class="r-title">Redline</span>
+								</a>
+							</div>
+							<div class="recommendation-item">
+								<a href="#">
+									<img src="http://ecx.images-amazon.com/images/I/51P9LRL4e0L._SL135_.jpg" url="" alt="" width="105" height="135">
+									<span class="r-title">First Squad [Blu-ray]</span>
+								</a>
+							</div>
+							<div class="recommendation-item">
+								<a href="#">
+									<img src="http://ecx.images-amazon.com/images/I/61R591%2BX3GL._SL135_.jpg" alt="" width="105" height="135">
+									<span class="r-title">Redline [Blu-ray]</span>
+								</a>
+							</div>
+							<div class="recommendation-item">
+								<a href="#">
+									<img src="http://ecx.images-amazon.com/images/I/61OamcTOk0L._SL135_.jpg" url="" alt="" width="116" height="135">
+									<span class="r-title">Summer Wars [Blu-ray]</span>
+								</a>
+							</div>
 						</div>
-
-
-					</fieldset>
-				</form>
-			</div>
-		</div>
-		<div id="content-wrapper">
-			<div id="recommendation-block">
-				<span id="s9-title">Recommendation Item</span>
-				<hr>
-				<div id="recommendation-list">
-					<div class="recommendation-item">
-						<a href="#">
-							<img src="http://ecx.images-amazon.com/images/I/510oJQfnYSL._SL135_.jpg" alt="" width="116" height="135">
-							<span class="r-title">Evangelion: 1.11 You Are Alone</span>
-						</a>
-					</div>
-					<div class="recommendation-item">
-						<a href="#">
-							<img src="http://ecx.images-amazon.com/images/I/51P-JRP9QRL._SL135_.jpg" url="" alt="" width="116" height="135">
-							<span class="r-title">Redline</span>
-						</a>
-					</div>
-					<div class="recommendation-item">
-						<a href="#">
-							<img src="http://ecx.images-amazon.com/images/I/51P9LRL4e0L._SL135_.jpg" url="" alt="" width="105" height="135">
-							<span class="r-title">First Squad [Blu-ray]</span>
-						</a>
-					</div>
-					<div class="recommendation-item">
-						<a href="#">
-							<img src="http://ecx.images-amazon.com/images/I/61R591%2BX3GL._SL135_.jpg" alt="" width="105" height="135">
-							<span class="r-title">Redline [Blu-ray]</span>
-						</a>
-					</div>
-					<div class="recommendation-item">
-						<a href="#">
-							<img src="http://ecx.images-amazon.com/images/I/61OamcTOk0L._SL135_.jpg" url="" alt="" width="116" height="135">
-							<span class="r-title">Summer Wars [Blu-ray]</span>
-						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 
-</html>
+	</html>
